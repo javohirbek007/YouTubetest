@@ -1,9 +1,9 @@
 from aiogram import types
 from aiogram.types import CallbackQuery
 
-from Pythonnew1.loader import dp
+from loader import dp
 
-from Pythonnew1.keyboards.inline.tugma import youtube
+from keyboards.inline.tugma import youtube
 
 
 @dp.callback_query_handler(text='uz')
