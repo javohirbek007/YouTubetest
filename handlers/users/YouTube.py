@@ -3,7 +3,7 @@ from aiogram.types import CallbackQuery
 
 from loader import dp
 
-from Pythonnew1.keyboards.inline.tugma import youtube
+from keyboards.inline.tugma import youtube
 
 
 @dp.callback_query_handler(text='uz')

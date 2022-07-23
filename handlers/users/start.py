@@ -4,7 +4,7 @@ from aiogram.dispatcher.filters.builtin import CommandStart
 
 from loader import dp
 
-from Pythonnew1.keyboards.inline.tugma import til
+from keyboards.inline.tugma import til
 
 @dp.message_handler(commands='start')
 async def bot_echo(message: types.Message):
