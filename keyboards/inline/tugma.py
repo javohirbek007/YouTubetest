@@ -3,7 +3,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
 youtube = InlineKeyboardMarkup(
     inline_keyboard = [
         [
-            InlineKeyboardButton(text="You Tube", web_app=WebAppInfo(url="https://www.youtube.com/"))
+            InlineKeyboardButton(text="You Tube",web_app=WebAppInfo(url="https://www.youtube.com/"))
         ],
 
     ])
