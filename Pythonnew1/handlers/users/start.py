@@ -2,9 +2,9 @@ from aiogram import types
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.builtin import CommandStart
 
-from loader import dp
+from Pythonnew1.loader import dp
 
-from keyboards.inline.tugma import til
+from Pythonnew1.keyboards.inline.tugma import til
 
 @dp.message_handler(commands='start')
 async def bot_echo(message: types.Message):
